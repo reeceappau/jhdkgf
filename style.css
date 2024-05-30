@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5C4033; /* Light pink background */
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #633A00; /* White container background */
+    border: 20px solid #000; /* Black border */
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff0000; /* Red heading text */
+}
+
+.quote-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffff99; /* Yellow quote container background */
+    border: 2px dashed #000; /* Black dashed border */
+    border-radius: 10px;
+    color: #9fa356;
+}
+
+#generate-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #00ccff; /* Light blue button background */
+    border: 2px solid #000; /* Black border */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generate-btn:hover {
+    background-color: #ff6600; /* Orange hover background */
+    color: #fff; /* White text */
+}
+
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 9999;
+  }
+
+#closePopupButton{
+    font-size: 5px;
+    position: fixed;
+    left:200px;
+    top: 300px;
+}
